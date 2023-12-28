@@ -1,0 +1,23 @@
+/* Mobile Portrait View */
+
+@media screen and (max-width:767px) {
+/*Default CSS*/
+.wp-block-navigation__responsive-container.is-menu-open.has-modal-open{ background-color:#8cc73e !important; padding:25px;}
+/*Custom CSS*/
+.wp-block-group.header-Top .wp-block-group{ flex-wrap:wrap !important; gap:5px !important;  flex-direction: column !important; }
+.wp-block-cover.hdrbanner-BX{ min-height:400px !important;}
+.wp-block-group.bannerInfo h3{ font-size:28px !important;}
+.wp-block-group.bannerInfo h5{ font-size:18px !important;}
+.fse-right-menu:after, .order-btn{ display:none !important;}
+.fse-right-menu{ border-radius: 100px !important;}
+}
+
+@media screen and (max-width: 980px){
+	.wpcf7 input[type="text"], 
+	.wpcf7 input[type="tel"], 
+	.wpcf7 input[type="email"], 
+	.wpcf7 textarea{ 
+		width:100%;
+	}
+	
+}

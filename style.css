@@ -1,0 +1,67 @@
+/*
+Theme Name: FreshSpin FSE
+Theme URI: https://gracethemes.com/themes/free-laundry-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: FreshSpin FSE is one of the best theme designed for laundry service websites. This theme is specially created for clothing, laundry services, room cleaning services, house cleaning agencies, dry cleaning, cleaning business, cleaning Service, clothing repair, ironing, wash business and other similar business websites. This multipurpose theme is also suitable for corporate, business, construction, hotel, restaurant, flower shop, travel and tour website, coaching, education, sports, medical, doctor, gym, fitness, modelling, wedding. This laundry service WordPress theme comes fully packed with extensive features to make a website flourish quickly and easily. The homepage of FreshSpin FSE is loaded with multiple essential features where you can display all the important information about your website, such as client testimonials, services, contact details, etc. It is also suitable for newbie users who are not much accustomed to coding. It does not require much coding skills, and hence, you will never have to hire professional people to help you with operating it. It is a Full Site Editing based theme and hence can be easily used. As it is integrated with SEO plugins, your website can effortlessly get good exposure on the web. The SEO optimization feature makes a website appear at the top of the Google search engine. Demo: https://gracethemesdemo.com/freshspin/
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: freshspin-fse
+Requires PHP:  5.6
+Tested up to: 6.3
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+FreshSpin FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2023.
+FreshSpin FSE WordPress Theme is released under the terms of GNU GPL
+*/
+html, body { overflow-x: hidden; }
+.HeaderBanner{ margin-top:-25px !important}
+ul.footer-post li{ margin-bottom:15px !important;}
+ul.footer-post li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:inline-block;}
+.wp-block-navigation ul{ padding:20px !important;}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ background-color:#8cc73e; padding:5px !important}
+.fse-right-menu{ 
+position:relative;
+z-index:999; 
+-webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;}
+.fse-right-menu:after{background: #8cc73e; bottom: 0;content: ""; position: absolute; top:0px; width: 99999px;  right: -99988px; }
+.order-btn{ position:absolute; right:0; top:18px; z-index:9999;}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ margin:30px 0 0;padding:0;}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ width:40%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;color:#797979;margin-bottom:0;height:40px;padding:0 15px;}	
+.wpcf7 textarea{color:#797979;margin-bottom:25px;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;padding:10px;width:60%;	height:160px;font-size:12px;}
+.wpcf7 input[type="submit"]{border-radius:40px;font-weight:600;font-size:16px;cursor:pointer;background-color:#60c19f;padding:20px 40px;color:#ffffff;width:auto;border:none;text-transform:uppercase;}
+.wpcf7 input[type="submit"]:hover{background-color:#101010;}
+
+/* = Section2 CSS
+----------------------------------------------- */
+.right-BX{ border-radius:20px;}
+.right-BX:hover{ background-color:#8cc73e !important;}
+.right-BX:hover h5{ color:#fff !important;}
+.welcome-Leftbx{ position:relative;}
+.years-trip{ position:absolute; bottom:5%; right:5%; width:220px; height:200px; }
+.years-trip::before {content: ''; width: 85%; height: 85%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); border: solid 2px #67c892; border-style:dashed;}
+.SF-Sidebar ul.latest-post li{ margin-bottom:25px !important; }
+.SF-Sidebar ul.latest-post li a.wp-block-latest-posts__post-title{ margin-bottom:10px !important; display:block;}
+
+
+/* = Footer CSS
+----------------------------------------------- */
+.footer-3-column{ position:relative;}
+.footer-3-column h3.wp-block-heading{ position:relative; padding-bottom:20px;}
+.footer-3-column h3.wp-block-heading::before{ position: absolute; content:''; bottom:0; left:0; width:70px; height:2px; background-color:#8cc73e}
+ul.fs-footer-post{ margin:0; padding:0;}
+ul.fs-footer-post li{ list-style:none; margin-bottom:30px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ margin-top:6px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ border-radius:10px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ margin-bottom:15px; display:block; line-height:22px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ color:#8cc73e;}
